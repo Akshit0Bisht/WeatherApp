@@ -18,7 +18,9 @@
         document.getElementById("temp").innerHTML=data["main"]["temp"];
         document.getElementById("Time").innerHTML=date;
         document.getElementById("hi-low").innerHTML=data["main"]["temp_max"] + "/" + data["main"]["temp_min"];
-
+        console.log(data.weather[0].icon);
+        var url="http://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png";
+        $("#svg").attr("src",url);
       })
   }
 

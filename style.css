@@ -10,11 +10,11 @@
   width: 500px;
   padding: 20px;
 }
-body {
+/* body { 
     background-image: url("Images/images.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+ /*}*/
 h1{
   color: Orange;
 padding: 50px 20px 50px;
@@ -64,21 +64,31 @@ font-size: 30px;
   margin: 30px 0px;
   float: left;
   width:50%;
+
 }
 #svg{
   float:right;
   width:50%;
 }
 
+
 #svg svg{
   width:20%;
   height: 20%;
 }
 #hi-low{
-  color: white;
+
+  color: orange;
+
   font-size: 30px;
 }
 .emoji{
   height: 200px;
   width:100%;
+}
+.dark-mode {
+    color: #bdbdbd;
+}
+.dark-mode, .dark-mode .switch-wrapper>div {
+    background: #161625!important;
 }
